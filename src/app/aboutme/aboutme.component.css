@@ -84,7 +84,7 @@
 }
 .item-box i{
   float: left;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .item-box .item-data{
@@ -98,7 +98,7 @@
 }
 .item-box .item-data p{
   margin: 0px;
-  font-size: 20px;
+  font-size: 25px;
   color: #2E8B57;
   text-decoration-style: bold;
 }
