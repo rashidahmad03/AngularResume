@@ -8,14 +8,12 @@
   
 
     <div class="card" style="margin: 8vw 8vh">
-      <h5 class="card-header">Featured</h5>
+      <h5 class="card-header" *ngIf="isMobile === false" >Featured</h5>
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">
+
           <app-aboutme></app-aboutme>
           
         
-        </p>
         
       </div>
     </div>
