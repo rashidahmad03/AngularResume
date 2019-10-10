@@ -1,0 +1,41 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div *ngIf="isMobile === true">
+  <app-navbar></app-navbar>
+
+</div>
+
+
+
+
+<div class="card" style="margin: 8vw 8vh">
+  <h5 class="card-header" *ngIf="isMobile === false">
+    <app-header></app-header>
+  </h5>
+  <div class="card-body">
+    <div *ngIf="message ==='ABOUT ME' ">
+      <app-aboutme></app-aboutme>
+    </div>
+    <div *ngIf="message ==='Skill' ">
+      <app-skill></app-skill>
+    </div>
+    <div *ngIf="message ==='Project' ">
+      <app-project></app-project>
+    </div>
+    <div *ngIf="message ==='certificate' ">
+      <app-certificate></app-certificate>
+    </div>
+    <div *ngIf="message ==='contact' ">
+      <app-contact></app-contact>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<router-outlet></router-outlet>
